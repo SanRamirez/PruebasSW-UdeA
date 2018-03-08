@@ -45,6 +45,7 @@ public class NodeTest {
     }
     
     /**
+     * 1
      * Prueba creación de nodo, con argumentos vacíos, con getters y setters y valores enteros y de tipo double
     */
     @Test
@@ -55,6 +56,7 @@ public class NodeTest {
     }
     
     /**
+     * 2
      * Prueba creacion de un nodo con parametro en el constructor
     */
     @Test
@@ -64,6 +66,7 @@ public class NodeTest {
     }
     
     /**
+     * 3
      * Prueba para cambiar el dato de un nodo
     */
     @Test
@@ -74,6 +77,7 @@ public class NodeTest {
     }
     
     /**
+     * 4
      * Prueba creacion de nodo con dato de tipo double
     */
     @Test
@@ -83,6 +87,7 @@ public class NodeTest {
     }
     
     /**
+     * 5
      * Prueba obtencion de nodo siguiente cuando es nulo
     */
     @Test
@@ -93,10 +98,12 @@ public class NodeTest {
     }   
     
     /**
+     * 6
      * Prueba obtencion de nodo siguiente cuando no es nulo
     */
     @Test
     public void textNextNoNull() {
+        System.out.println("* Prueba agg nodo siguiente no nulo");
         Node helper = new Node(5);
         Node helperNext = new Node(8);
         helper.setNext(helperNext);

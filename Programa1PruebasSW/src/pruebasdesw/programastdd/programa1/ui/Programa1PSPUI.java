@@ -17,10 +17,9 @@ import pruebasdesw.programastdd.programa1.model.LinkedList;
 import pruebasdesw.programastdd.programa1.model.Node;
 
 /**
- *
- * @author Mateo Noreña
- * @author Joan Morales
- * @author Esteban Cataño
+ * @author sebastian.londonoa@udea.edu.co
+ * @author johan.marinb@udea.edu.co
+ * @author santiago.ramirez9@udea.edu.co
  */
 public class Programa1PSPUI extends javax.swing.JFrame {
 
@@ -32,9 +31,11 @@ public class Programa1PSPUI extends javax.swing.JFrame {
      */
     public Programa1PSPUI() {
         initComponents();
-        this.setTitle("Programa 1");
+        this.setTitle("Programa 1 Pruebas de sw");
         btnLoad.setEnabled(false);
         btnCalculate.setEnabled(false);
+        this.setLocationRelativeTo(null);
+        
     }
 
     /**
@@ -88,9 +89,9 @@ public class Programa1PSPUI extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(99, 99, 99)
+                .addGap(52, 52, 52)
                 .addComponent(btnSearch)
-                .addGap(18, 18, 18)
+                .addGap(41, 41, 41)
                 .addComponent(btnLoad, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -101,7 +102,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addGap(22, 22, 22)
                 .addComponent(txtNameFile, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -156,7 +157,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
@@ -170,7 +171,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE)))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 194, Short.MAX_VALUE)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                                 .addComponent(btnCalculate)
@@ -198,7 +199,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
                         .addComponent(txtStdDev, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnExit)
-                        .addGap(0, 25, Short.MAX_VALUE)))
+                        .addGap(0, 26, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
@@ -207,7 +208,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("DejaVu Sans Condensed", 3, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(75, 75, 142));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("Calculadora de desviacion estandar y media");
+        jLabel2.setText("Calcular desviacion estandar y media");
         jLabel2.setToolTipText("");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -216,7 +217,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 443, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
@@ -244,7 +245,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -320,6 +321,7 @@ public class Programa1PSPUI extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Programa1PSPUI().setVisible(true);
